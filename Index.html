@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Patient Registration Form</h1>
+    <div style="text-align: center;">
+    <img src="images.jpeg" width="700px" height="400px">
+    </div>
+   <form action="/register" method="GET">
+        <label><h4>Patient Name:</h4></label><br>
+        <input type="text" name="name" required>
+        <br><br>
+        <label><h4>Age:</h4></label><br>
+        <input type="number" name="age" required>
+        <br><br>
+
+        <label><h4>Disease:</h4></label><br>
+        <input type="text" name="disease" required>
+        <br><br>
+
+        <label><h4>Admit Date:</h4></label><br>
+        <input type="date" name="date" required>
+        <br><br>
+
+        <button type="submit">Register Patient</button>
+    </form>
+
+    <br>
+    <a href="/view">View All Patients</a>
+
+</body>
+</html>
